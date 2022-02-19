@@ -4,7 +4,7 @@ _Read this in other languages:_
 [_简体中文_](README.zh-CN.md),
 [_Русский_](README.ru-RU.md),
 [_Português_](README.pt-BR.md)
-
+[_日本語_](README.ja-JP.md)
 In computer science, a **trie**, also called digital tree and sometimes 
 radix tree or prefix tree (as they can be searched by prefixes), 
 is a kind of search tree—an ordered tree data structure that is 
