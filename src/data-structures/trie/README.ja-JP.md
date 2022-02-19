@@ -3,26 +3,18 @@
 _他の言語で読む:_
 [_简体中文_](README.zh-CN.md),
 [_Русский_](README.ru-RU.md),
-[_Português_](README.pt-BR.md)
+[_Português_](README.pt-BR.md),
 [_日本語_](README.ja-JP.md)
 コンピューターサイエンスでは、**トライ**はデジタルツリー、または基数ツリー、
 プレフィックスツリー(プレフィックスで検索することが可能なため)とも呼ばれます。
 検索木または順序木構造という動的セットや連想配列のようなキーがstringのものを格納するのに使われます。
-
-t, a **trie**, also called digital tree and sometimes 
-radix tree or prefix tree (as they can be searched by prefixes), 
-is a kind of search tree—an ordered tree data structure that is 
-used to store a dynamic set or associative array where the keys 
-are usually strings. Unlike a binary search tree, no node in the 
-tree stores the key associated with that node; instead, its 
-position in the tree defines the key with which it is associated.
-All the descendants of a node have a common prefix of the string
-associated with that node, and the root is associated with the 
-empty string. Values are not necessarily associated with every 
-node. Rather, values tend only to be associated with leaves, 
-and with some inner nodes that correspond to keys of interest. 
-For the space-optimized presentation of prefix tree, see compact 
-prefix tree.
+バイナリ検索木とは違い、トライに格納されたノードにはそのノードに紐づくキーはありませんが、
+その木の一そのものがそれに紐づくキーを定義しています。
+ノードに紐づくすべての子ツリーはstringの共通プレフィックスを持っており、
+そのルート(基)は空のstringが紐づいています。
+しかし全てのノードに値が紐づいているとは限りません。むしろ、値は葉にのみ紐づいており、
+その内部ノードは当該のキーと同様です。プレフィックス木の空間最適化の説明については、
+コンパクトプレフィックス木をご参照ください。
 
 ![Trie](https://upload.wikimedia.org/wikipedia/commons/b/be/Trie_example.svg)
 
